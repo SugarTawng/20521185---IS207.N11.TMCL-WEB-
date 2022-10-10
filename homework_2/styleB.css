@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+}
+.box {
+	width: 100px;
+	height: 150px;
+
+	margin-right: 10px;
+	padding: 0 10px;
+
+	background: #eeeff2;
+	border-left: 10px dotted #d0d0ff;
+
+	font-size: 40px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.last {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.box:hover {
+	background: yellow;
+	color: goldenrod;
+	cursor: pointer;
+}
