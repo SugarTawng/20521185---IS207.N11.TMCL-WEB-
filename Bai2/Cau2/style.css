@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+}
+section {
+	width: 60%;
+	height: max-content;
+	padding: 1rem;
+	margin: 0 auto;
+	text-align: center;
+}
+#profile h1,
+#experiences h1,
+#abilities h1 {
+	font-size: 4rem;
+	color: rgba(5, 180, 148, 0.9);
+}
+#profile h4 {
+	margin-bottom: 2rem;
+	font-weight: normal;
+	font-size: 1.5rem;
+}
+.profile__content {
+	padding: 2rem 0;
+	border-top: 1px solid grey;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.profile__content-aboutme,
+.profile__content-details {
+	text-align: left;
+}
+.profile__content-aboutme h3,
+.profile__content-details h3,
+.experiences__content-educations h3,
+.experiences__content-workingexp h3,
+.abilities__content-skills h3,
+.abilities__content-languages h3 {
+	color: rgba(5, 180, 148, 0.9);
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+.profile__content-details h5,
+.profile__content-details p {
+	margin-bottom: 0.5rem;
+}
+#experiences {
+	background: rgba(227, 227, 177, 0.6);
+}
+#experiences h1 {
+	margin-bottom: 2rem;
+}
+.experiences__content-educations,
+.experiences__content-workingexp,
+.abilities__content-skills,
+.abilities__content-languages {
+	border-top: 1px solid grey;
+	text-align: left;
+	padding: 2rem 0;
+}
+.experiences__content-educations td,
+.experiences__content-workingexp td,
+.abilities__content-skills td,
+.abilities__content-languages td {
+	width: 50%;
+}
+.experiences__content-educations h5,
+.experiences__content-workingexp h5 {
+	margin-bottom: 0.5rem;
+}
+.abilities__content-skills table,
+.abilities__content-languages table {
+	margin: 1rem 0;
+	position: relative;
+}
+.abilities__content-languages {
+	margin-top: 3rem;
+}
+.tick {
+	color: rgba(5, 180, 148, 0.9);
+}
+.see-on-github-p {
+	text-align: center;
+}
+.see-on-github-a {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-decoration: none;
+	background: rgba(5, 180, 148, 0.9);
+	color: white;
+	padding: 0.5rem;
+	margin: 1rem 0;
+}
